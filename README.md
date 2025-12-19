@@ -1,6 +1,6 @@
 # Simple Webservice
 
-I like playing around with the models from huggingface. I eventually want to make a fully interactive "agent" using some of the models avaiable, but to do that I wanted to first make a simpler system which I could eventually expand. 
+I like playing around with the models from HuggingFace. I eventually want to make a fully interactive "agent" using some of the models avaiable, but to do that I wanted to first make a simpler system which I could eventually expand. 
 
 ![Architecture Diagram](images/webservice.png)
 

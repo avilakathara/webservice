@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.imageContainer {
+  border: 2px solid #8f8f8f;
+  background: #f2f2f2;
+  height: 560px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.placeholder {
+  font-size: 28px;
+  color: #333;
+}
+
+.btn {
+  border: 2px solid #8f8f8f;
+  background: #efefef;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
